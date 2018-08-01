@@ -1,4 +1,4 @@
-# What are problems in LN?
+# What are problems of Lightning Network?
 
 ```
 [ライトニングネットワークに足りない点]
@@ -14,7 +14,6 @@
 ・エンジニアの参入コストが大きい
   ・プロトコルをそれなりに理解しないといけない
   ・OSI参照モデルのアプリケーション層に相当するプロトコルがあったほうがいい
-・outsourcing watchtower, backupのインセンティブ、分散委任技術
 
 ルーティングアルゴリズム関係
 ・安定的な仲介ノードの選定方法
@@ -33,4 +32,7 @@ LN外部ビジネス
 参考
 6/23ベルリン、ライトニングハックデー
 https://bitcointechweekly.com/front/summary-of-the-bar-camp-session-at-the-2nd-lightninghackday-in-berlin--improving-the-autopilot-of-ln/
+
+注意
+多額が一度に送金できない(AMP(Atomic Multi-Path Payments)に関連)やトランザクション手数料の変動リスク(ACINQのFabrice Drouinが指摘していたfee management)、外部委託ウォッチタワー、バックアップへのインセンティブ、分散委任技術、ビジネスなどそれなりに知られているものは省く。
 ```
